@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE627FF515E43F6100844269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE627FF415E43F6100844269 /* UIKit.framework */; };
+		AE627FF715E43F6100844269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE627FF615E43F6100844269 /* Foundation.framework */; };
+		AE627FF915E43F6100844269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE627FF815E43F6100844269 /* CoreGraphics.framework */; };
+		AE627FFF15E43F6100844269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE627FFD15E43F6100844269 /* InfoPlist.strings */; };
+		AE62800115E43F6100844269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62800015E43F6100844269 /* main.m */; };
+		AE62800515E43F6100844269 /* WavePoolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62800415E43F6100844269 /* WavePoolAppDelegate.m */; };
+		AE62800815E43F6100844269 /* WavePoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62800715E43F6100844269 /* WavePoolViewController.m */; };
+		AE62800B15E43F6100844269 /* WavePoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE62800915E43F6100844269 /* WavePoolViewController.xib */; };
+		AE62801515E45E4B00844269 /* WavePoolConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62801215E45E4A00844269 /* WavePoolConstants.m */; };
+		AE62801915E460D200844269 /* MeshNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62801815E460D200844269 /* MeshNode.m */; };
+		AE62801C15E460E800844269 /* WavePoolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62801B15E460E800844269 /* WavePoolModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE627FF015E43F6100844269 /* WavePool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavePool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE627FF415E43F6100844269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE627FF615E43F6100844269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE627FF815E43F6100844269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE627FFC15E43F6100844269 /* WavePool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WavePool-Info.plist"; sourceTree = "<group>"; };
+		AE627FFE15E43F6100844269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE62800015E43F6100844269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE62800215E43F6100844269 /* WavePool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WavePool-Prefix.pch"; sourceTree = "<group>"; };
+		AE62800315E43F6100844269 /* WavePoolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavePoolAppDelegate.h; sourceTree = "<group>"; };
+		AE62800415E43F6100844269 /* WavePoolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavePoolAppDelegate.m; sourceTree = "<group>"; };
+		AE62800615E43F6100844269 /* WavePoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavePoolViewController.h; sourceTree = "<group>"; };
+		AE62800715E43F6100844269 /* WavePoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavePoolViewController.m; sourceTree = "<group>"; };
+		AE62800A15E43F6100844269 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WavePoolViewController.xib; sourceTree = "<group>"; };
+		AE62801115E45E4A00844269 /* WavePoolConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePoolConstants.h; sourceTree = "<group>"; };
+		AE62801215E45E4A00844269 /* WavePoolConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePoolConstants.m; sourceTree = "<group>"; };
+		AE62801715E460D200844269 /* MeshNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshNode.h; sourceTree = "<group>"; };
+		AE62801815E460D200844269 /* MeshNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshNode.m; sourceTree = "<group>"; };
+		AE62801A15E460E800844269 /* WavePoolModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavePoolModel.h; sourceTree = "<group>"; };
+		AE62801B15E460E800844269 /* WavePoolModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavePoolModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE627FED15E43F6100844269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE627FF515E43F6100844269 /* UIKit.framework in Frameworks */,
+				AE627FF715E43F6100844269 /* Foundation.framework in Frameworks */,
+				AE627FF915E43F6100844269 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE627FE515E43F6100844269 = {
+			isa = PBXGroup;
+			children = (
+				AE627FFA15E43F6100844269 /* WavePool */,
+				AE627FF315E43F6100844269 /* Frameworks */,
+				AE627FF115E43F6100844269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE627FF115E43F6100844269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE627FF015E43F6100844269 /* WavePool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE627FF315E43F6100844269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE627FF415E43F6100844269 /* UIKit.framework */,
+				AE627FF615E43F6100844269 /* Foundation.framework */,
+				AE627FF815E43F6100844269 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE627FFA15E43F6100844269 /* WavePool */ = {
+			isa = PBXGroup;
+			children = (
+				AE62800315E43F6100844269 /* WavePoolAppDelegate.h */,
+				AE62800415E43F6100844269 /* WavePoolAppDelegate.m */,
+				AE62800615E43F6100844269 /* WavePoolViewController.h */,
+				AE62800715E43F6100844269 /* WavePoolViewController.m */,
+				AE62800915E43F6100844269 /* WavePoolViewController.xib */,
+				AE627FFB15E43F6100844269 /* Supporting Files */,
+			);
+			path = WavePool;
+			sourceTree = "<group>";
+		};
+		AE627FFB15E43F6100844269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE627FFC15E43F6100844269 /* WavePool-Info.plist */,
+				AE627FFD15E43F6100844269 /* InfoPlist.strings */,
+				AE62801A15E460E800844269 /* WavePoolModel.h */,
+				AE62801B15E460E800844269 /* WavePoolModel.m */,
+				AE62801715E460D200844269 /* MeshNode.h */,
+				AE62801815E460D200844269 /* MeshNode.m */,
+				AE62800015E43F6100844269 /* main.m */,
+				AE62801115E45E4A00844269 /* WavePoolConstants.h */,
+				AE62801215E45E4A00844269 /* WavePoolConstants.m */,
+				AE62800215E43F6100844269 /* WavePool-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE627FEF15E43F6100844269 /* WavePool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE62800E15E43F6100844269 /* Build configuration list for PBXNativeTarget "WavePool" */;
+			buildPhases = (
+				AE627FEC15E43F6100844269 /* Sources */,
+				AE627FED15E43F6100844269 /* Frameworks */,
+				AE627FEE15E43F6100844269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavePool;
+			productName = WavePool;
+			productReference = AE627FF015E43F6100844269 /* WavePool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE627FE715E43F6100844269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WavePool;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Nicholas Arcolano";
+			};
+			buildConfigurationList = AE627FEA15E43F6100844269 /* Build configuration list for PBXProject "WavePool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE627FE515E43F6100844269;
+			productRefGroup = AE627FF115E43F6100844269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE627FEF15E43F6100844269 /* WavePool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE627FEE15E43F6100844269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE627FFF15E43F6100844269 /* InfoPlist.strings in Resources */,
+				AE62800B15E43F6100844269 /* WavePoolViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE627FEC15E43F6100844269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE62800115E43F6100844269 /* main.m in Sources */,
+				AE62800515E43F6100844269 /* WavePoolAppDelegate.m in Sources */,
+				AE62800815E43F6100844269 /* WavePoolViewController.m in Sources */,
+				AE62801515E45E4B00844269 /* WavePoolConstants.m in Sources */,
+				AE62801915E460D200844269 /* MeshNode.m in Sources */,
+				AE62801C15E460E800844269 /* WavePoolModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE627FFD15E43F6100844269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE627FFE15E43F6100844269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE62800915E43F6100844269 /* WavePoolViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE62800A15E43F6100844269 /* en */,
+			);
+			name = WavePoolViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE62800C15E43F6100844269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE62800D15E43F6100844269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE62800F15E43F6100844269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WavePool/WavePool-Prefix.pch";
+				INFOPLIST_FILE = "WavePool/WavePool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE62801015E43F6100844269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WavePool/WavePool-Prefix.pch";
+				INFOPLIST_FILE = "WavePool/WavePool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE627FEA15E43F6100844269 /* Build configuration list for PBXProject "WavePool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62800C15E43F6100844269 /* Debug */,
+				AE62800D15E43F6100844269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE62800E15E43F6100844269 /* Build configuration list for PBXNativeTarget "WavePool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE62800F15E43F6100844269 /* Debug */,
+				AE62801015E43F6100844269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE627FE715E43F6100844269 /* Project object */;
+}
